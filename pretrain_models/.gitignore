@@ -1,0 +1,6 @@
+Backbone_VIT_Epoch_2_Batch_20000_Time_2021-01-12-16-48_checkpoint.pth/
+Backbone_VITs_Epoch_2_Batch_12000_Time_2021-03-17-04-05_checkpoint.pth/
+best_model.pth/
+__pycache__/
+convert_base-1k.pth/
+ViTAE-B-22k.pth/
