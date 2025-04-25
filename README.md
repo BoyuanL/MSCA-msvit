@@ -1,6 +1,6 @@
 # Enhanced Kinship Verification via Context-Aware Multi-Scale Transformer
 
-**This is the official implementation of the paper**: Enhanced Kinship Verification via Context-Aware Multi-Scale Transformer. Submitted to *The Visual Computer*.
+**This is the official implementation of the paper**: Enhanced Kinship Verification via Context-Aware Multi-Scale Transformer. Submitted to ***The Visual Computer***.
 
 ## Installation
 
