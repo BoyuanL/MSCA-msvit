@@ -1,6 +1,6 @@
 ## Installation
 
-Our code has been tested in Python 3.7 and PyTorch 1.13.1+cu117 environments. Please set up your environment according to the official instructions. 
+Our code has been tested in Python 3.7 and PyTorch 1.13.1+cu117 environments. Please set up your environment according to the official instructions. See other required packages in `requirements.txt`.
 
 
 
@@ -9,6 +9,21 @@ Our code has been tested in Python 3.7 and PyTorch 1.13.1+cu117 environments. Pl
 We trained and evaluated our method on publicly available Families In the Wild(FIW), KinFaceW-I, and KinFaceW-II datasets. Download and extract the datasets from their official sources, then organize the data with the following structure:
 
 - [Families In the Wild](https://github.com/visionjo/fiw)
+
+  data/
+  └── FIW/
+  ├── Train/
+  │ ├── train-faces/
+  │ │ ├── F0001/
+  │ │ │ ├── MID1/
+  │ │ └── ...
+  │ └── train-pairs.csv
+  ├── Val/
+  │ ├── val-faces/
+  │ └── val-pairs.csv
+  └── Test/
+  ├── test-faces/
+  └── test-pairs.csv
 
 - [KinFaceW-I, and KinFaceW-II](https://www.kinfacew.com/datasets.html)
 
@@ -34,3 +49,15 @@ python main.py --mode test --data_dir data/FIW --backbone vit --checkpoint check
 python main.py --mode test --data_dir data/FIW --backbone vit --checkpoint checkpoints/model_best.pth --output_csv results/predictions.csv
 ```
 
+### Citation
+
+If you use this work, please cite our paper:
+
+```bibtex
+@article{zhu2025enhanced,  
+  title={Enhanced Kinship Verification via Context-Aware Multi-Scale Transformer},  
+  author={Zhu, Xiaoke and Li, Boyuan and Chen, Xiaopan and Qi, Fumin and Yuan, Caihong and Jing, Xiao-Yuan},  
+  journal={The Visual Computer},  
+  year={2025},    
+}  
+```
