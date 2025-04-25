@@ -1,6 +1,8 @@
 # Enhanced Kinship Verification via Context-Aware Multi-Scale Transformer
 
-**This is the official implementation of the paper**: Enhanced Kinship Verification via Context-Aware Multi-Scale Transformer. Submitted to ***The Visual Computer***.
+**This is the official implementation of the paper**: Enhanced Kinship Verification via Context-Aware Multi-Scale Transformer. Submitted to ***The Visual Computer***. 
+
+Note: The cited paper is currently under peer-review at The Visual Computer. This citation is provisional and subject to the journal's acceptance decision.
 
 ## Installation
 
@@ -54,8 +56,8 @@ If you use this work, please cite our paper:
 ```bibtex
 @article{zhu2025enhanced,  
   title={Enhanced Kinship Verification via Context-Aware Multi-Scale Transformer},  
-  author={Zhu, Xiaoke and Li, Boyuan and Chen, Xiaopan and Qi, Fumin and Yuan, Caihong and Jing, Xiao-Yuan},  
-  journal={The Visual Computer},  
-  year={2025},    
+  author={Zhu, Xiaoke and Li, Boyuan and Chen, Xiaopan and Qi, Fumin and Yuan, Caihong and Jing, Xiao-Yuan},    
+  year={2025}, 
+  note={Submitted to The Visual Computer},
 }  
 ```
