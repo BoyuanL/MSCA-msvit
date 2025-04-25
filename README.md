@@ -1,3 +1,7 @@
+# Enhanced Kinship Verification via Context-Aware Multi-Scale Transformer
+
+**This is the official implementation of the paper**: Enhanced Kinship Verification via Context-Aware Multi-Scale Transformer. Submitted to *The Visual Computer*.
+
 ## Installation
 
 Our code has been tested in Python 3.7 and PyTorch 1.13.1+cu117 environments. Please set up your environment according to the official instructions. See other required packages in `requirements.txt`.
@@ -10,21 +14,15 @@ We trained and evaluated our method on publicly available Families In the Wild(F
 
 - [Families In the Wild](https://github.com/visionjo/fiw)
 
-  data/
-  └── FIW/
-  ├── Train/
-  │ ├── train-faces/
-  │ │ ├── F0001/
-  │ │ │ ├── MID1/
-  │ │ └── ...
-  │ └── train-pairs.csv
-  ├── Val/
-  │ ├── val-faces/
-  │ └── val-pairs.csv
-  └── Test/
-  ├── test-faces/
-  └── test-pairs.csv
-
+      |--data                         
+          |--FIW           
+              |--pairs
+              |--Test
+              |--Train
+              |--Validation    
+          |--KinFaceW-I
+          |--KinFaceW-II
+  
 - [KinFaceW-I, and KinFaceW-II](https://www.kinfacew.com/datasets.html)
 
   
